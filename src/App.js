@@ -1,10 +1,11 @@
 
 import './App.css';
-import UilReact from '@iconscout/react-unicons/icons/uil-react'
+
 import TopButtons from './components/TopButtons';
 import Inputs from './components/Inputs';
 import Location from './components/Location';
 import Temperature from './components/Temperature';
+import Forecast from './components/Forecast';
 
 function App() {
   return (<>
@@ -14,6 +15,7 @@ function App() {
 <Inputs/>
 <Location/>
 <Temperature/>
+<Forecast/>
 
 
 
